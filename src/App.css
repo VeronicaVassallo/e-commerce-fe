@@ -1,7 +1,58 @@
 .backgroundApp {
 	width: 100vw;
-	height: 100lvh;
+	height: 100vh;
 	background-image: url("./assets/bg.gif");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/*Navbar*/
+.profile {
+	overflow: hidden;
+}
+.cordinateIconsNav {
+	top: -95px;
+	right: -230px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #fee2e2;
+	left: -321px;
+	min-width: 100vw;
+	z-index: 1;
+}
+
+.dropdown-content2 {
+	display: none;
+	position: absolute;
+	background-color: #fee2e2;
+	left: -470px;
+	min-width: 100vw;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	border-bottom: solid 2px black;
 }
